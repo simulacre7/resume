@@ -28,7 +28,7 @@ export default function WorkExperience() {
             isFirst
             title="사내 프론트엔드 모듈 개발"
             time="2021.01-현재"
-            description="티맥스 사관학교의 어쩌구 저쩌구 유지보수 개선 개발 연구하고 있습니다."
+            description="어쩌구 저쩌구 유지보수 개선 및 개발 연구하고 있습니다."
             did={["1st item", "2nd item", "3rd item"]}
             techStack="Typescript, React, Sass"
           />
@@ -36,7 +36,7 @@ export default function WorkExperience() {
             isFirst
             title="AutoML 프론트엔드 개발"
             time="2020.02-현재"
-            description="티맥스 사관학교의 어쩌구 저쩌구 유지보수 개선 개발 연구하고 있습니다."
+            description="어쩌구 저쩌구 유지보수 개선 및 개발 연구하고 있습니다."
             did={["1st item", "2nd item", "3rd item"]}
             techStack="Typescript, React, Sass"
           />

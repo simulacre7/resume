@@ -27,7 +27,7 @@ export default function Skills() {
         title="Overall"
         details={[
           "파이어볼을 쏠 줄 압니다.",
-          "루팡을 즐깁니다.",
+          "잠자고 건강을 챙깁니다.",
           "눕는 것을 좋아합니다.",
         ]}
       />
@@ -36,7 +36,7 @@ export default function Skills() {
         title="Communication"
         details={[
           "파이어볼을 쏠 줄 압니다.",
-          "루팡을 즐깁니다.",
+          "잠자고 건강을 챙깁니다.",
           "눕는 것을 좋아합니다.",
         ]}
       />
@@ -45,7 +45,7 @@ export default function Skills() {
         title="React"
         details={[
           "파이어볼을 쏠 줄 압니다.",
-          "루팡을 즐깁니다.",
+          "잠자고 건강을 챙깁니다.",
           "눕는 것을 좋아합니다.",
         ]}
       />
@@ -54,7 +54,7 @@ export default function Skills() {
         title="Javascript"
         details={[
           "파이어볼을 쏠 줄 압니다.",
-          "루팡을 즐깁니다.",
+          "잠자고 건강을 챙깁니다.",
           "눕는 것을 좋아합니다.",
         ]}
       />
@@ -63,7 +63,7 @@ export default function Skills() {
         title="Tooling"
         details={[
           "파이어볼을 쏠 줄 압니다.",
-          "루팡을 즐깁니다.",
+          "잠자고 건강을 챙깁니다.",
           "눕는 것을 좋아합니다.",
         ]}
       />
@@ -72,7 +72,7 @@ export default function Skills() {
         title="DevOps"
         details={[
           "파이어볼을 쏠 줄 압니다.",
-          "루팡을 즐깁니다.",
+          "잠자고 건강을 챙깁니다.",
           "눕는 것을 좋아합니다.",
         ]}
       />

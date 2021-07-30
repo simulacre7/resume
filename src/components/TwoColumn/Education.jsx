@@ -30,7 +30,7 @@ export default function Education() {
             isFirst
             title="연구1"
             time="2021.01-현재"
-            description="노예짓1"
+            description="설명1"
             did={["1st item", "2nd item", "3rd item"]}
             techStack="Typescript, React, Sass"
           />
@@ -38,7 +38,7 @@ export default function Education() {
             isFirst
             title="연구2"
             time="2020.02-현재"
-            description="노예짓2"
+            description="설명2"
             did={["1st item", "2nd item", "3rd item"]}
             techStack="Typescript, React, Sass"
           />
