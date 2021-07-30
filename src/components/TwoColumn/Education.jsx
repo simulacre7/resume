@@ -14,7 +14,7 @@ export default function Education() {
   return (
     <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
       <Typography variant="h3" style={titleStyle}>
-        <ColorHead>Edu</ColorHead>cation<ColorHead>.</ColorHead>
+        <ColorHead>Edu</ColorHead>cation
       </Typography>
 
       <Row>

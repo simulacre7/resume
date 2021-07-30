@@ -14,7 +14,7 @@ export default function WorkExperience() {
   return (
     <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
       <Typography variant="h3" style={titleStyle}>
-        <ColorHead>Wor</ColorHead>k Experience<ColorHead>.</ColorHead>
+        <ColorHead>Wor</ColorHead>k Experience
       </Typography>
 
       <Row>

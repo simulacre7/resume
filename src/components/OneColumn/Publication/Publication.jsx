@@ -10,7 +10,7 @@ export default function Publication() {
   return (
     <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
       <Typography variant="h3" style={pubStyle}>
-        <ColorHead>Pub</ColorHead>lication<ColorHead>.</ColorHead>
+        <ColorHead>Pub</ColorHead>lication
       </Typography>
       <Item
         title="ST-GRAT: A Novel Spatio-temporal Graph Attention Networks for Accurately Forecasting Dynamically Changing Road Speed"

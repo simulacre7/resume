@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
       <Typography variant="h3" style={skillStyle}>
-        <ColorHead>Ski</ColorHead>lls<ColorHead>.</ColorHead>
+        <ColorHead>Ski</ColorHead>lls
       </Typography>
       <Item
         title="Overall"

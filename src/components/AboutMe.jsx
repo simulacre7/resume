@@ -11,7 +11,7 @@ export default function AboutMe() {
   return (
     <section style={{ padding: "0 2rem" }}>
       <Typography variant="h3" style={titleStyle}>
-        <ColorHead>Abo</ColorHead>ut me<ColorHead>.</ColorHead>
+        <ColorHead>Abo</ColorHead>ut me
       </Typography>
       <Typography style={greetingStyle}>
         반갑습니다. 저는 프론트엔드 개발자 김기환입니다. 인간과 AI 사이
