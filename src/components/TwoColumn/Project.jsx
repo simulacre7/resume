@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
-import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 import Detail from "../Detail";
 
 export default function Project({

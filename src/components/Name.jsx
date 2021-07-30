@@ -10,7 +10,10 @@ export default function Name() {
   return (
     <section style={{ padding: "0 2rem" }}>
       <Typography variant="h1" style={nameStyle}>
-        <ColorHead>&#60;</ColorHead>김기환<ColorHead>&#47;&#62;</ColorHead>
+        <ColorHead>&#60;</ColorHead>김기환
+        <ColorHead>
+          <ColorHead color="#5E5E5E"> &#47;</ColorHead>&#62;
+        </ColorHead>
       </Typography>
     </section>
   );

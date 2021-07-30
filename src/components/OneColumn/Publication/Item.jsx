@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
-import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 import Detail from "../../Detail";
 
 const rowStyle = {
@@ -14,11 +13,11 @@ export default function Item({ url, title, author, journal, details }) {
     ? { margin: "0 0 0.5rem", fontSize: "1.25rem" }
     : { margin: "0 0 0.5rem" };
   let captionStyle = matches ? { fontSize: "0.80rem" } : { fontSize: "1rem" };
-  let pubStyle = matches ? { fontSize: "2.4rem" } : {};
+
   return (
     <div style={rowStyle}>
       <Typography variant="h5" style={titleStyle}>
-        <a target="_blank" href={url}>
+        <a target="_blank" href={url} rel="noopener noreferrer">
           {title}
         </a>
       </Typography>
