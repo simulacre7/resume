@@ -25,15 +25,15 @@ export default function Project({
       </Typography>
       <Typography style={{ marginBottom: "1rem" }}>{time}</Typography>
       <Typography variant="h5" style={detailStyle}>
-        Description
+        주요업무
       </Typography>
       <Typography style={{ marginBottom: "1rem" }}>{description}</Typography>
       <Typography variant="h5" style={detailStyle}>
-        What did I do
+        상세설명
       </Typography>
       <Detail details={did} />
       <Typography variant="h5" style={{ ...detailStyle, marginTop: "1rem" }}>
-        Tech Stack
+        Teck Stack
       </Typography>
       <Typography>{techStack}</Typography>
     </div>
