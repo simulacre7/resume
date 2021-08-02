@@ -1,0 +1,19 @@
+.detail-container ul {
+  padding: 0;
+  list-style: none;
+  margin: 0 0 1rem;
+  font-size: 1.55rem;
+  padding-inline-start: 0.5rem;
+}
+.detail-container li {
+  position: relative;
+  padding: 0.2rem 0 0.2rem 1rem;
+}
+
+.detail-container li:before {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  content: "•";
+  color: rgb(62, 180, 137);
+}
