@@ -30,7 +30,7 @@ export default function Publication() {
         author={
           <>
             Cheonbok Park, Chunggi Lee, Hyojin Bahng, Yunwon Tae,
-            <b>Kihwan Kim</b>, Seungmin Jin, Sungahn Ko, Jaegul Choo
+            <b> Kihwan Kim</b>, Seungmin Jin, Sungahn Ko, Jaegul Choo
           </>
         }
         journal={`ACM International Conference on Information and Knowledge Management (CIKM), 2020`}
