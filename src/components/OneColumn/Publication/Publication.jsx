@@ -29,7 +29,7 @@ export default function Publication() {
         url="https://dl.acm.org/doi/10.1145/3340531.3411940"
         author={
           <>
-            Cheonbok Park, Chunggi Lee, Hyojin Bahng, Yunwon Tae,{" "}
+            Cheonbok Park, Chunggi Lee, Hyojin Bahng, Yunwon Tae,
             <b>Kihwan Kim</b>, Seungmin Jin, Sungahn Ko, Jaegul Choo
           </>
         }
