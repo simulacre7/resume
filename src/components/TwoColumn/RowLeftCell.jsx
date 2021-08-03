@@ -18,8 +18,6 @@ export default function RowLeftCell({
         paddingRight: "1rem",
         flexShrink: "0",
         msFlexPreferredSize: "100%",
-        flexBasis: "100%",
-        paddingRight: "0",
         paddingBottom: "1rem",
       }
     : { flexBasis: "18rem", paddingRight: "1rem", flexShrink: "0" };

@@ -1,10 +1,10 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
 
 export default function Badge({ children, style }) {
   return (
     <div
       style={{
-        ...style,
         backgroundColor: "#e3f5ef",
         color: "teal",
         borderRadius: "0.2rem",
@@ -16,7 +16,7 @@ export default function Badge({ children, style }) {
         display: "inline-flex",
       }}
     >
-      {children}
+      <Typography style={style}>{children}</Typography>
     </div>
   );
 }

@@ -6,8 +6,8 @@ export default function Detail({ details }) {
   return (
     <div className="detail-container">
       <ul>
-        {details.map((detail) => (
-          <li>
+        {details.map((detail, index) => (
+          <li key={`detail-${index}`}>
             <Typography>{detail}</Typography>
           </li>
         ))}

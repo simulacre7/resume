@@ -27,11 +27,11 @@ export default function Project({
       <Typography style={{ marginBottom: "1rem" }}>{time}</Typography>
       <Typography style={{ marginBottom: "1rem" }}>{description}</Typography>
       <Detail details={did} />
-      <Typography>
-        {techStack.map((tech) => (
-          <Badge style={detailStyle}>{tech}</Badge>
-        ))}
-      </Typography>
+      {techStack.map((tech, index) => (
+        <Badge key={`tech-${index}`} style={detailStyle}>
+          {tech}
+        </Badge>
+      ))}
     </div>
   );
 }
