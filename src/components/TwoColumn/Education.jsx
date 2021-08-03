@@ -22,7 +22,11 @@ export default function Education() {
           companyName="울산과학기술원 (UNIST)"
           position="컴퓨터공학 석사"
           time="2018.03&ndash;2020.02"
-          position2="기술경영학 학사 (컴퓨터공학 융합전공)"
+          position2={
+            matches
+              ? "기술경영학 학사"
+              : "기술경영학 학사 (컴퓨터공학 융합전공)"
+          }
           time2="2013.03&ndash;2018.02"
         />
         <RowRightCell>

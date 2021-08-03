@@ -3,8 +3,8 @@ import { Typography, useMediaQuery } from "@material-ui/core";
 import Detail from "../../Detail";
 
 const rowStyle = {
-  padding: "3rem 0",
-  borderBottom: "1px solid #eee",
+  padding: "1rem 0",
+  //borderBottom: "1px solid #eee",
 };
 
 export default function Item({ url, title, author, journal, details }) {

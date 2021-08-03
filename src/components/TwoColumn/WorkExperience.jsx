@@ -26,7 +26,7 @@ export default function WorkExperience() {
         <RowRightCell>
           <Project
             isFirst
-            title="레거시 시스템을 리액트로 이전"
+            title="레거시 시스템 리액트 포팅"
             time="2021.01&ndash;현재"
             description={
               <>

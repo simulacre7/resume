@@ -6,14 +6,14 @@ export default function Row({ children }) {
   let containerStyle = matches
     ? {
         display: "flex",
-        padding: "3rem 0",
-        borderBottom: "1px solid #eee",
+        padding: "1rem 0",
+        //borderBottom: "1px solid #eee",
         webkitBoxOrient: "vertical",
         webkitBoxDirection: "normal",
         msFlexDirection: "column",
         flexDirection: "column",
       }
-    : { display: "flex", padding: "3rem 0", borderBottom: "1px solid #eee" };
+    : { display: "flex", padding: "1rem 0" /*borderBottom: "1px solid #eee"*/ };
 
   return <div style={containerStyle}>{children}</div>;
 }

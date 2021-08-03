@@ -5,7 +5,9 @@ import Item from "./Item";
 
 export default function Publication() {
   const matches = useMediaQuery("(max-width:960px)");
-  let pubStyle = matches ? { fontSize: "2.4rem" } : {};
+  let pubStyle = matches
+    ? { fontSize: "2.4rem", marginBottom: "1rem" }
+    : { marginBottom: "1rem" };
 
   return (
     <section style={{ padding: "0 2rem", marginTop: "4rem" }}>

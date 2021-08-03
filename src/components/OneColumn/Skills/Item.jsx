@@ -3,7 +3,7 @@ import { Typography, useMediaQuery } from "@material-ui/core";
 import Detail from "../../Detail";
 
 const rowStyle = {
-  padding: "3rem 0",
+  padding: "1rem 0",
 };
 
 export default function Item({ title, details, isLast = false }) {
@@ -15,7 +15,7 @@ export default function Item({ title, details, isLast = false }) {
   return (
     <div
       style={
-        isLast ? rowStyle : { ...rowStyle, borderBottom: "1px solid #eee" }
+        isLast ? rowStyle : { ...rowStyle /*borderBottom: "1px solid #eee"*/ }
       }
     >
       <Typography variant="h5" style={titleStyle}>
