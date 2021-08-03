@@ -13,6 +13,18 @@ export default function Publication() {
         <ColorHead>Pub</ColorHead>lication
       </Typography>
       <Item
+        title="An Empirical analysis on Transparent Algorithmic Exploration in Recommender Systems"
+        url="https://arxiv.org/abs/2108.00151"
+        author={<b>Kihwan Kim</b>}
+        journal={`A Computing Research Repository (CoRR), 2108.00151, 2021`}
+        details={[
+          "추천 시스템에서 사용자 취향을 파악하기 위한 랜덤 아이템들을 어떻게 전달해야 할까?",
+          "실험 환경으로 사용된 웹 기반 영화 추천 시스템 구현",
+          "사용자 로그의 가치를 AI 측면에서 평가하는 metric 제안",
+          "추천시스템의 Explore-Exploit 문제에서 투명성이 데이터의 품질에 미치는 영향을 측정",
+        ]}
+      />
+      <Item
         title="ST-GRAT: A Novel Spatio-temporal Graph Attention Networks for Accurately Forecasting Dynamically Changing Road Speed"
         url="https://dl.acm.org/doi/10.1145/3340531.3411940"
         author={
@@ -25,18 +37,6 @@ export default function Publication() {
         details={[
           "도로 및 통행 데이터 전처리",
           "Attention이 효과적으로 동작한 경우들을 패턴 별로 묶어 카테고리화",
-        ]}
-      />
-      <Item
-        title="An Empirical Study on Disclosing Exploratory Items in Recommender Systems"
-        url="https://drive.google.com/file/d/1SCT9BwfE9l5fXIGaOyH8vUkVLMCGIqTu/view?usp=sharing"
-        author={<b>Kihwan Kim</b>}
-        journal={`Master Thesis @ UNIST`}
-        details={[
-          "추천 시스템에서 사용자 취향을 파악하기 위한 랜덤 아이템들을 어떻게 전달해야 할까?",
-          "실험 환경으로 사용된 웹 기반 영화 추천 시스템 구현",
-          "사용자 로그의 가치를 AI 측면에서 평가하는 metric 제안",
-          "추천시스템의 Explore-Exploit 문제에서 투명성이 데이터의 품질에 미치는 영향을 측정",
         ]}
       />
       <Item
