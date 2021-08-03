@@ -12,7 +12,7 @@ export default function Publication() {
   return (
     <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
       <Typography variant="h3" style={pubStyle}>
-        <ColorHead>Pub</ColorHead>lication
+        <ColorHead>Pub</ColorHead>lications
       </Typography>
       <Item
         title="An Empirical analysis on Transparent Algorithmic Exploration in Recommender Systems"
