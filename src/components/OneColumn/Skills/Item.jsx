@@ -4,16 +4,20 @@ import Detail from "../../Detail";
 
 const rowStyle = {
   padding: "3rem 0",
-  borderBottom: "1px solid #eee",
 };
-export default function Item({ title, details }) {
+
+export default function Item({ title, details, isLast = false }) {
   const matches = useMediaQuery("(max-width:960px)");
   let titleStyle = matches
     ? { margin: "0 0 0.5rem", fontSize: "1.25rem" }
     : { margin: "0 0 0.5rem", fontSize: "2rem" };
 
   return (
-    <div style={rowStyle}>
+    <div
+      style={
+        isLast ? rowStyle : { ...rowStyle, borderBottom: "1px solid #eee" }
+      }
+    >
       <Typography variant="h5" style={titleStyle}>
         {title}
       </Typography>
