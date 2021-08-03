@@ -14,8 +14,8 @@ export default function RowLeftCell({
     : { marginBottom: "0.5rem" };
   let containerStyle = matches
     ? {
-        flexBasis: "18rem",
-        paddingRight: "1rem",
+        flexBasis: "100%",
+        paddingRight: "0",
         flexShrink: "0",
         msFlexPreferredSize: "100%",
         paddingBottom: "1rem",
