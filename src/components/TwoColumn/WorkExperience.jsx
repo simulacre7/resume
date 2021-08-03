@@ -35,10 +35,7 @@ export default function WorkExperience() {
               </>
             }
             did={[
-              <>
-                모듈화가 미흡한 기존 코드를 용도에 맞게 분할하고, <br />
-                인터페이스를 개선
-              </>,
+              "모듈화가 미흡한 기존 코드를 용도에 맞게 분할하고 인터페이스를 개선",
               "각종 컴포넌트 신규 개발",
             ]}
             techStack={["Typescript", "React", "Sass", "Material-UI"]}
