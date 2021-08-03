@@ -31,7 +31,7 @@ export default function Education() {
         />
         <RowRightCell>
           <Project
-            isFirst
+            isFirst={!matches}
             title="AI 중심 UI/UX 설계"
             time="2019.01&ndash;2020.02"
             description={

@@ -6,18 +6,14 @@ const rowStyle = {
   padding: "1rem 0",
 };
 
-export default function Item({ title, details, isLast = false }) {
+export default function Item({ title, details }) {
   const matches = useMediaQuery("(max-width:960px)");
   let titleStyle = matches
     ? { margin: "0 0 0.5rem", fontSize: "1.25rem" }
     : { margin: "0 0 0.5rem", fontSize: "2rem" };
 
   return (
-    <div
-      style={
-        isLast ? rowStyle : { ...rowStyle /*borderBottom: "1px solid #eee"*/ }
-      }
-    >
+    <div style={rowStyle}>
       <Typography variant="h5" style={titleStyle}>
         {title}
       </Typography>

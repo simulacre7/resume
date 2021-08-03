@@ -41,7 +41,6 @@ export default function Skills() {
           "TensorFlow, Keras 등을 활용한 딥러닝 구현 가능",
           "XGBoost, AutoScikit 등을 활용한 정형데이터 기반 머신러닝 모델 구현 가능",
         ]}
-        isLast
       />
     </section>
   );
