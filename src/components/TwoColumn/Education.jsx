@@ -41,14 +41,14 @@ export default function Education() {
               "사용자 로그의 가치를 AI 측면에서 평가하는 metric 제안",
               "추천시스템의 Explore-Exploit 문제에서 투명성이 데이터의 품질에 미치는 영향을 측정",
             ]}
-            techStack="Python, Flask, jQuery, Surprise"
+            techStack={["Python", "Flask", "jQuery", "Surprise"]}
           />
           <Project
             title="사용자 행동 모델링"
             time="2019.02&ndash;현재"
             description="설명2"
             did={["Association Rule", "Inverse Reinforcement Learning"]}
-            techStack="Python, TensorFlow, Keras, scikit-learn"
+            techStack={["Python", "TensorFlow", "Keras", "scikit-learn"]}
           />
         </RowRightCell>
       </Row>

@@ -41,7 +41,7 @@ export default function WorkExperience() {
               </>,
               "각종 컴포넌트 신규 개발",
             ]}
-            techStack="Typescript, React, Sass, Material-UI"
+            techStack={["Typescript", "React", "Sass", "Material-UI"]}
           />
           <Project
             title="AutoML 플랫폼"
@@ -55,7 +55,7 @@ export default function WorkExperience() {
               </>,
               "컴퓨팅 리소스 관리 도구 개발",
             ]}
-            techStack="Typescript, React, Sass, Material-UI, Python"
+            techStack={["Typescript", "React", "Sass", "Material-UI", "Python"]}
           />
         </RowRightCell>
       </Row>

@@ -15,6 +15,7 @@ export default function Name() {
           <ColorHead color="#5E5E5E"> &#47;</ColorHead>&#62;
         </ColorHead>
       </Typography>
+      {/*<Typography variant="h6">kihwan@kakao.com</Typography>*/}
     </section>
   );
 }

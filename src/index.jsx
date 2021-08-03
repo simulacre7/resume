@@ -13,6 +13,7 @@ const cvTheme = createTheme({
     h3: { fontWeight: "bold" },
     h4: { fontWeight: "bold" },
     h5: { fontWeight: "bold" },
+    h6: { fontWeight: "bold" },
   },
 });
 
