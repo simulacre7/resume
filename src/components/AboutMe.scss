@@ -1,0 +1,15 @@
+#contact {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#contact a:hover {
+  color: teal;
+  cursor: pointer;
+}
+
+#contact a {
+  margin: 0 0.3rem;
+  text-decoration: underline;
+  color: #5e5e5e;
+}
