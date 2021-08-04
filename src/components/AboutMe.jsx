@@ -6,9 +6,7 @@ import "./AboutMe.scss";
 
 export default function AboutMe() {
   const matches = useMediaQuery("(max-width:960px)");
-  const greetingStyle = matches
-    ? { display: "inline", fontSize: "1rem" }
-    : { display: "inline", fontSize: "1.2rem" };
+  const greetingStyle = matches ? { fontSize: "1rem" } : { fontSize: "1.2rem" };
   const contactStyle = matches
     ? { fontSize: "0.75rem" }
     : { fontSize: "0.85rem" };
@@ -17,11 +15,7 @@ export default function AboutMe() {
     : { marginBottom: "1rem" };
   const animatedItem = {
     title: useScrollFadeIn("down"),
-    greeting1: useScrollFadeIn("down"),
-    greeting2: useScrollFadeIn("down"),
-    greeting3: useScrollFadeIn("down"),
-    greeting4: useScrollFadeIn("down"),
-    greeting5: useScrollFadeIn("down"),
+    greeting: useScrollFadeIn("summary-text"),
     contact: useScrollFadeIn("down"),
   };
   return (
@@ -34,37 +28,14 @@ export default function AboutMe() {
         <ColorHead>Sum</ColorHead>mary
       </Typography>
       <Typography
-        ref={animatedItem.greeting1.ref}
-        style={{ ...greetingStyle, ...animatedItem.greeting1.style }}
+        ref={animatedItem.greeting.ref}
+        style={{ ...greetingStyle, ...animatedItem.greeting.style }}
       >
-        반갑습니다.&nbsp;저는 프론트엔드 개발자 김기환입니다.&nbsp;
+        {`반갑습니다. 저는 프론트엔드 개발자 김기환입니다. 인간과 AI사이 상호작용을 개선하는 일을 해오고 있습니다. 
+    현재는 블랙박스 모델의 해석을 돕는 데이터 시각화 기법을 연구 중 입니다. 
+    과거에는 사용자 로그 데이터의 가치를 AI 측면에서 평가하고, 
+    이를 통해 더 나은 인터페이스가 무엇인지를 비교하는 연구를 수행했습니다.`}
       </Typography>
-      <Typography
-        ref={animatedItem.greeting2.ref}
-        style={{ ...greetingStyle, ...animatedItem.greeting2.style }}
-      >
-        인간과 AI사이 상호작용을 개선하는 일을 해오고 있습니다.&nbsp;
-      </Typography>
-      <Typography
-        ref={animatedItem.greeting3.ref}
-        style={{ ...greetingStyle, ...animatedItem.greeting3.style }}
-      >
-        현재는 블랙박스 모델의 해석을 돕는 데이터 시각화 기법을 연구 중
-        입니다.&nbsp;
-      </Typography>
-      <Typography
-        ref={animatedItem.greeting4.ref}
-        style={{ ...greetingStyle, ...animatedItem.greeting4.style }}
-      >
-        과거에는 사용자 로그 데이터의 가치를 AI 측면에서 평가하고,&nbsp;
-      </Typography>
-      <Typography
-        ref={animatedItem.greeting5.ref}
-        style={{ ...greetingStyle, ...animatedItem.greeting5.style }}
-      >
-        이를 통해 더 나은 인터페이스가 무엇인지를 비교하는 연구를 수행했습니다.
-      </Typography>
-
       <div
         ref={animatedItem.contact.ref}
         style={animatedItem.contact.style}
