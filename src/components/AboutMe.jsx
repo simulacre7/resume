@@ -39,7 +39,7 @@ export default function AboutMe() {
       </Typography>
       <Typography
         ref={animatedItem.greeting2.ref}
-        style={{ ...greetingStyle, ...animatedItem.greeting3.style }}
+        style={{ ...greetingStyle, ...animatedItem.greeting2.style }}
       >
         현재는 블랙박스 모델의 해석을 돕는 데이터 시각화 기법을 연구 중
         입니다.&nbsp;과거에는 사용자 로그 데이터의 가치를 AI 측면에서
