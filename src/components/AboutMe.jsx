@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
 import ColorHead from "./ColorHead";
+import useScrollFadeIn from "../hooks/useScrollFadeIn";
 
 export default function AboutMe() {
   const matches = useMediaQuery("(max-width:960px)");
@@ -8,12 +9,23 @@ export default function AboutMe() {
   const titleStyle = matches
     ? { marginBottom: "1rem", fontSize: "2.4rem" }
     : { marginBottom: "1rem" };
+  const animatedItem = {
+    title: useScrollFadeIn("down"),
+    greeting: useScrollFadeIn("down"),
+  };
   return (
     <section style={{ padding: "0 2rem" }}>
-      <Typography variant="h3" style={titleStyle}>
+      <Typography
+        ref={animatedItem.title.ref}
+        variant="h3"
+        style={{ ...titleStyle, ...animatedItem.title.style }}
+      >
         <ColorHead>Sum</ColorHead>mary
       </Typography>
-      <Typography style={greetingStyle}>
+      <Typography
+        ref={animatedItem.greeting.ref}
+        style={{ ...greetingStyle, ...animatedItem.greeting.style }}
+      >
         반갑습니다. 저는 프론트엔드 개발자 김기환입니다. 인간과 AI 사이
         상호작용을 개선하는 일을 해오고 있습니다. 현재는 블랙박스 모델의 해석을
         돕는 데이터 시각화 기법을 연구 중 입니다. 과거에는 사용자 로그 데이터의

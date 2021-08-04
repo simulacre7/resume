@@ -2,17 +2,23 @@ import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
 import ColorHead from "../../ColorHead";
 import Item from "./Item";
-
+import useScrollFadeIn from "../../../hooks/useScrollFadeIn";
 export default function Skills() {
   const matches = useMediaQuery("(max-width:960px)");
   const skillStyle = matches ? { fontSize: "2.4rem" } : {};
   const sectionStyle = matches
     ? { padding: "0 2rem", marginTop: "2.5rem" }
     : { padding: "0 2rem", marginTop: "4rem" };
-
+  const animatedItem = {
+    title: useScrollFadeIn("down"),
+  };
   return (
     <section style={sectionStyle}>
-      <Typography variant="h3" style={skillStyle}>
+      <Typography
+        ref={animatedItem.title.ref}
+        variant="h3"
+        style={{ ...skillStyle, ...animatedItem.title.style }}
+      >
         <ColorHead>Ski</ColorHead>lls
       </Typography>
       <Item
