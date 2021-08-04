@@ -5,12 +5,15 @@ import Item from "./Item";
 
 export default function Publication() {
   const matches = useMediaQuery("(max-width:960px)");
-  let pubStyle = matches
+  const pubStyle = matches
     ? { fontSize: "2.4rem", marginBottom: "1rem" }
     : { marginBottom: "1rem" };
+  const sectionStyle = matches
+    ? { padding: "0 2rem", marginTop: "2.5rem" }
+    : { padding: "0 2rem", marginTop: "4rem" };
 
   return (
-    <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
+    <section style={sectionStyle}>
       <Typography variant="h3" style={pubStyle}>
         <ColorHead>Pub</ColorHead>lications
       </Typography>

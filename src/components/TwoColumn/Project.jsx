@@ -11,13 +11,18 @@ export default function Project({
   techStack,
   isFirst = false,
 }) {
-  const firstStyle = { paddingBottom: "1.5rem" };
-  const otherStyle = { padding: "1.5rem 0" };
   const matches = useMediaQuery("(max-width:960px)");
-  let titleStyle = matches
+  const firstStyle = matches
+    ? { paddingTop: "0.2rem", paddingBottom: "0.2rem" }
+    : { paddingBottom: "1.5rem" };
+  const otherStyle = { padding: "1.5rem 0" };
+
+  const titleStyle = matches
     ? { marginBottom: "0.5rem", fontSize: "1.25rem" }
     : { marginBottom: "0.5rem", fontSize: "2.0rem" };
-  let detailStyle = matches ? { fontSize: "0.75rem" } : { fontSize: "0.9rem" };
+  const detailStyle = matches
+    ? { fontSize: "0.75rem" }
+    : { fontSize: "0.9rem" };
 
   return (
     <div style={isFirst ? firstStyle : otherStyle}>

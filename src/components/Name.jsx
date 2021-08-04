@@ -4,7 +4,7 @@ import ColorHead from "./ColorHead";
 
 export default function Name() {
   const matches = useMediaQuery("(max-width:960px)");
-  let nameStyle = matches
+  const nameStyle = matches
     ? { margin: ".67em 0", fontSize: "3rem" }
     : { margin: ".67em 0" };
   return (

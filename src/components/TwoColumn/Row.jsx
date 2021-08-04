@@ -3,7 +3,7 @@ import { useMediaQuery } from "@material-ui/core";
 
 export default function Row({ children }) {
   const matches = useMediaQuery("(max-width:960px)");
-  let containerStyle = matches
+  const containerStyle = matches
     ? {
         display: "flex",
         padding: "1rem 0",

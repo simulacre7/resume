@@ -8,11 +8,15 @@ import ColorHead from "../ColorHead";
 
 export default function Education() {
   const matches = useMediaQuery("(max-width:960px)");
-  let titleStyle = matches
+  const titleStyle = matches
     ? { marginBottom: "1rem", fontSize: "2.4rem" }
     : { marginBottom: "1rem" };
+  const sectionStyle = matches
+    ? { padding: "0 2rem", marginTop: "2.5rem" }
+    : { padding: "0 2rem", marginTop: "4rem" };
+
   return (
-    <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
+    <section style={sectionStyle}>
       <Typography variant="h3" style={titleStyle}>
         <ColorHead>Edu</ColorHead>cation
       </Typography>
@@ -31,7 +35,7 @@ export default function Education() {
         />
         <RowRightCell>
           <Project
-            isFirst={!matches}
+            isFirst
             title="AI 중심 UI/UX 설계"
             time="2019.01&ndash;2020.02"
             description={

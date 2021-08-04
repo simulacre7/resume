@@ -5,10 +5,13 @@ import Item from "./Item";
 
 export default function Skills() {
   const matches = useMediaQuery("(max-width:960px)");
-  let skillStyle = matches ? { fontSize: "2.4rem" } : {};
+  const skillStyle = matches ? { fontSize: "2.4rem" } : {};
+  const sectionStyle = matches
+    ? { padding: "0 2rem", marginTop: "2.5rem" }
+    : { padding: "0 2rem", marginTop: "4rem" };
 
   return (
-    <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
+    <section style={sectionStyle}>
       <Typography variant="h3" style={skillStyle}>
         <ColorHead>Ski</ColorHead>lls
       </Typography>

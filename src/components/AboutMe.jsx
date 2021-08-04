@@ -4,8 +4,8 @@ import ColorHead from "./ColorHead";
 
 export default function AboutMe() {
   const matches = useMediaQuery("(max-width:960px)");
-  let greetingStyle = matches ? { fontSize: "1rem" } : { fontSize: "1.2rem" };
-  let titleStyle = matches
+  const greetingStyle = matches ? { fontSize: "1rem" } : { fontSize: "1.2rem" };
+  const titleStyle = matches
     ? { marginBottom: "1rem", fontSize: "2.4rem" }
     : { marginBottom: "1rem" };
   return (

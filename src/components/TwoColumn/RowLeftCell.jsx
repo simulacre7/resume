@@ -9,10 +9,10 @@ export default function RowLeftCell({
   time2,
 }) {
   const matches = useMediaQuery("(max-width:960px)");
-  let titleStyle = matches
+  const titleStyle = matches
     ? { marginBottom: "0.5rem", fontSize: "1.7rem" }
     : { marginBottom: "0.5rem" };
-  let containerStyle = matches
+  const containerStyle = matches
     ? {
         flexBasis: "100%",
         paddingRight: "0",

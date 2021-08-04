@@ -2,17 +2,13 @@ import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
 import Detail from "../../Detail";
 
-const rowStyle = {
-  padding: "1rem 0",
-  //borderBottom: "1px solid #eee",
-};
-
 export default function Item({ url, title, author, journal, details }) {
   const matches = useMediaQuery("(max-width:960px)");
-  let titleStyle = matches
+  const titleStyle = matches
     ? { margin: "0 0 0.5rem", fontSize: "1.25rem" }
     : { margin: "0 0 0.5rem" };
-  let captionStyle = matches ? { fontSize: "0.80rem" } : { fontSize: "1rem" };
+  const captionStyle = matches ? { fontSize: "0.80rem" } : { fontSize: "1rem" };
+  const rowStyle = matches ? { padding: "0.2rem 0" } : { padding: "1rem 0" };
 
   return (
     <div style={rowStyle}>

@@ -8,11 +8,15 @@ import ColorHead from "../ColorHead";
 
 export default function WorkExperience() {
   const matches = useMediaQuery("(max-width:960px)");
-  let titleStyle = matches
+  const titleStyle = matches
     ? { marginBottom: "1rem", fontSize: "2.4rem" }
     : { marginBottom: "1rem" };
+  const sectionStyle = matches
+    ? { padding: "0 2rem", marginTop: "2.5rem" }
+    : { padding: "0 2rem", marginTop: "4rem" };
+
   return (
-    <section style={{ padding: "0 2rem", marginTop: "4rem" }}>
+    <section style={sectionStyle}>
       <Typography variant="h3" style={titleStyle}>
         <ColorHead>Exp</ColorHead>erience
       </Typography>
@@ -25,7 +29,7 @@ export default function WorkExperience() {
         />
         <RowRightCell>
           <Project
-            isFirst={!matches}
+            isFirst
             title="레거시 시스템 리액트 포팅"
             time="2021.01&ndash;현재"
             description={
