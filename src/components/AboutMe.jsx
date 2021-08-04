@@ -7,6 +7,9 @@ import "./AboutMe.scss";
 export default function AboutMe() {
   const matches = useMediaQuery("(max-width:960px)");
   const greetingStyle = matches ? { fontSize: "1rem" } : { fontSize: "1.2rem" };
+  const contactStyle = matches
+    ? { fontSize: "0.75rem" }
+    : { fontSize: "0.85rem" };
   const titleStyle = matches
     ? { marginBottom: "1rem", fontSize: "2.4rem" }
     : { marginBottom: "1rem" };
@@ -40,10 +43,10 @@ export default function AboutMe() {
         id="contact"
       >
         <a id="email" href="mailto:juljin1875@gmail.com">
-          <Typography>juljin1875@gmail.com</Typography>
+          <Typography style={contactStyle}>juljin1875@gmail.com</Typography>
         </a>
         <a id="github" href="https://github.com/simulacre7/">
-          <Typography>GitHub</Typography>
+          <Typography style={contactStyle}>GitHub</Typography>
         </a>
       </div>
     </section>
