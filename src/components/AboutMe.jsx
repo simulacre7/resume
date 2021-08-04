@@ -15,8 +15,8 @@ export default function AboutMe() {
     : { marginBottom: "1rem" };
   const animatedItem = {
     title: useScrollFadeIn("down"),
-    greeting: useScrollFadeIn("summary-text"),
-    contact: useScrollFadeIn("down"),
+    greeting: useScrollFadeIn("paragraph"),
+    contact: useScrollFadeIn("caption"),
   };
   return (
     <section style={{ padding: "0 2rem" }}>

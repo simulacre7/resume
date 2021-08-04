@@ -12,8 +12,8 @@ export default function Item({ url, title, author, journal, details }) {
   const rowStyle = matches ? { padding: "0.2rem 0" } : { padding: "1rem 0" };
   const animatedItem = {
     title: useScrollFadeIn("down"),
-    author: useScrollFadeIn("down"),
-    journal: useScrollFadeIn("down"),
+    author: useScrollFadeIn("caption"),
+    journal: useScrollFadeIn("caption"),
   };
 
   return (

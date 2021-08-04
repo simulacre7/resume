@@ -13,8 +13,10 @@ const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {
         return "translate3d(50%, 0, 0)";
       case "right":
         return "translate3d(-50%, 0, 0)";
-      case "summary-text":
+      case "paragraph":
         return "translate3d(0, -20%, 0)";
+      case "caption":
+        return "translate3d(0, -100%, 0)";
       default:
         return;
     }

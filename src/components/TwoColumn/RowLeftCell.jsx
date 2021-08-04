@@ -24,10 +24,10 @@ export default function RowLeftCell({
     : { flexBasis: "18rem", paddingRight: "1rem", flexShrink: "0" };
   const animatedItem = {
     company: useScrollFadeIn("down"),
-    position: useScrollFadeIn("down"),
-    position2: useScrollFadeIn("down"),
-    time: useScrollFadeIn("down"),
-    time2: useScrollFadeIn("down"),
+    position: useScrollFadeIn("caption"),
+    position2: useScrollFadeIn("caption"),
+    time: useScrollFadeIn("caption"),
+    time2: useScrollFadeIn("caption"),
   };
 
   return (

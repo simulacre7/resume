@@ -27,7 +27,7 @@ export default function Project({
 
   const animatedItem = {
     title: useScrollFadeIn("down"),
-    time: useScrollFadeIn("down"),
+    time: useScrollFadeIn("caption"),
     description: useScrollFadeIn("down"),
   };
 
