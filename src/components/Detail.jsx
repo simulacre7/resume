@@ -5,7 +5,7 @@ import useScrollFadeIn from "../hooks/useScrollFadeIn";
 
 function DetailItem({ children, key }) {
   const animatedItem = {
-    item: useScrollFadeIn("down"),
+    item: useScrollFadeIn("up"),
   };
   return (
     <li key={key} {...animatedItem.item}>

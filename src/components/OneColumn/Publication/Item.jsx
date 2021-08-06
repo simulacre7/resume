@@ -11,9 +11,9 @@ export default function Item({ url, title, author, journal, details }) {
   const captionStyle = matches ? { fontSize: "0.80rem" } : { fontSize: "1rem" };
   const rowStyle = matches ? { padding: "0.2rem 0" } : { padding: "1rem 0" };
   const animatedItem = {
-    title: useScrollFadeIn("down"),
-    author: useScrollFadeIn("caption"),
-    journal: useScrollFadeIn("caption"),
+    title: useScrollFadeIn("up"),
+    author: useScrollFadeIn("up"),
+    journal: useScrollFadeIn("up"),
   };
 
   return (

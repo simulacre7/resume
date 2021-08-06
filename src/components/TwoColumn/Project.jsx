@@ -26,9 +26,9 @@ export default function Project({
     : { fontSize: "0.9rem" };
 
   const animatedItem = {
-    title: useScrollFadeIn("down"),
-    time: useScrollFadeIn("caption"),
-    description: useScrollFadeIn("down"),
+    title: useScrollFadeIn("up"),
+    time: useScrollFadeIn("up"),
+    description: useScrollFadeIn("up"),
   };
 
   return (

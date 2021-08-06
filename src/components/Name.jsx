@@ -8,7 +8,7 @@ export default function Name() {
   const nameStyle = matches
     ? { margin: ".67em 0", fontSize: "3rem" }
     : { margin: ".67em 0" };
-  const animatedItem = { name: useScrollFadeIn("down") };
+  const animatedItem = { name: useScrollFadeIn("up") };
 
   return (
     <section

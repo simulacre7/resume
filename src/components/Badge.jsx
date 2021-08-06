@@ -4,7 +4,7 @@ import useScrollFadeIn from "../hooks/useScrollFadeIn";
 
 export default function Badge({ children, style }) {
   const animatedItem = {
-    badge: useScrollFadeIn("down"),
+    badge: useScrollFadeIn("up"),
   };
   return (
     <div

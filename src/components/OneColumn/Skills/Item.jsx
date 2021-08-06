@@ -10,7 +10,7 @@ export default function Item({ title, details }) {
     : { margin: "0 0 0.5rem", fontSize: "2rem" };
   const rowStyle = { paddingTop: "1rem" };
   const animatedItem = {
-    title: useScrollFadeIn("down"),
+    title: useScrollFadeIn("up"),
   };
 
   return (

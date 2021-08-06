@@ -16,7 +16,7 @@ export default function WorkExperience() {
     ? { padding: "0 2rem", marginTop: "2.5rem" }
     : { padding: "0 2rem", marginTop: "4rem" };
 
-  const animatedItem = { title: useScrollFadeIn("down") };
+  const animatedItem = { title: useScrollFadeIn("up") };
 
   return (
     <section style={sectionStyle}>
