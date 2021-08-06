@@ -24,9 +24,7 @@ export default function Skills() {
       <Item
         title="프론트엔드"
         details={[
-          "Visual analytics 도구 개발; Shneiderman's mantra (overview first, zoom and filter, details on demand)에 기반한 설계",
-          "XAI (Ex: Shap, PDP, Local Surrogate Model...)",
-          "UI를 사용자 측면에서 바라볼 뿐만 아니라, AI 측면에서의 implicit feedback 수집용으로도 바라볼 줄 안다.",
+          "Visual analytics 도구 개발; Shneiderman's mantra (overview first, zoom and filter, details on demand)에 기반한 설계에 익숙합니다.",
           "ES6 이상 문법을 적극 사용합니다.",
           "타입스크립트를 사용해 개발할 수 있습니다.",
           "Vanilla JS 를 이용해 DOM 을 조작할 수 있습니다.",
@@ -45,10 +43,18 @@ export default function Skills() {
       />
 
       <Item
-        title="기계학습"
+        title="AI"
         details={[
-          "TensorFlow, Keras 등을 활용한 딥러닝 구현 가능",
-          "XGBoost, AutoScikit 등을 활용한 정형데이터 기반 머신러닝 모델 구현 가능",
+          "TensorFlow, Keras 등을 활용한 딥러닝 모델의 구현이 가능합니다.",
+          "XGBoost, AutoScikit 등을 활용한 정형데이터 기반 머신러닝 모델의 구현이 가능합니다.",
+          <>
+            AutoML 알고리즘들을 구현 할 수 있습니다 &mdash; Bayesian
+            optimization, hyperband, evolutionary algorithm.
+          </>,
+          <>
+            설명 가능한 AI 기술들에 익숙합니다 &mdash; Shap, partial dependence
+            plot, local surrogate model.
+          </>,
         ]}
       />
     </section>
