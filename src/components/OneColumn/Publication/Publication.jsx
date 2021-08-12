@@ -25,7 +25,7 @@ export default function Publication() {
         <ColorHead>Pub</ColorHead>lications
       </Typography>
       <Item
-        title="An Empirical analysis on Transparent Algorithmic Exploration in Recommender Systems"
+        title="An Empirical Analysis on Transparent Algorithmic Exploration in Recommender Systems"
         url="https://arxiv.org/abs/2108.00151"
         author={<b>Kihwan Kim</b>}
         journal={`A Computing Research Repository (CoRR), 2108.00151, 2021`}
