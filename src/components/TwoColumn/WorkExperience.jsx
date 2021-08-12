@@ -49,7 +49,7 @@ export default function WorkExperience() {
               "모듈화가 미흡한 기존 코드를 용도에 맞게 분할하고 인터페이스를 개선",
               "각종 컴포넌트 신규 개발",
             ]}
-            techStack={["Typescript", "React", "Sass", "Material-UI"]}
+            techStack={["Typescript", "React", "Sass", "Material-UI", "jQuery"]}
           />
           <Project
             title="AutoML 플랫폼"
@@ -61,7 +61,8 @@ export default function WorkExperience() {
                 설명 가능한 AI &mdash; XAI
                 <i>(eXplainable Artificial Intelligence)</i> 기술 연구 및 개발
               </>,
-              "컴퓨팅 리소스 관리 도구 개발",
+              "AutoML 엔진이 모델 개발자와 효과적으로 interaction 을 할 수 있는 인터페이스를 연구",
+              <>기계학습 모델의 개발, 관리 및 운영을 위한 대시보드 개발</>,
             ]}
             techStack={["Typescript", "React", "Sass", "Material-UI", "Python"]}
           />

@@ -53,17 +53,29 @@ export default function Education() {
               </>
             }
             did={[
-              "실험 환경으로 사용된 웹 기반 영화 추천 시스템 구현",
-              "사용자 로그의 가치를 AI 측면에서 평가하는 metric 제안",
               "추천시스템의 Explore-Exploit 문제에서 투명성이 데이터의 품질에 미치는 영향을 측정",
+              "사용자 로그의 가치를 AI 측면에서 평가하는 metric 제안",
+              "실험 환경용 웹 기반 영화 추천 시스템 구현",
             ]}
             techStack={["Python", "Flask", "jQuery", "Surprise"]}
           />
           <Project
-            title="사용자 행동 모델링"
+            title="웹 사용자 행동 모델링"
             time="2019.02&ndash;현재"
-            description="설명2"
-            did={["Association Rule", "Inverse Reinforcement Learning"]}
+            description={
+              <>
+                웹 환경에서 사용자들의 행동 패턴들을 파악하고, 이를 모델링하는
+                연구를 했습니다.
+              </>
+            }
+            did={[
+              <>
+                역강화학습 &mdash; <i>(Inverse Reinforcement Learning)</i>{" "}
+                방법론을 통해, 사용자들의 행동 이력으로 사용자의 보상 함수를
+                추정
+              </>,
+              "Tableau와 같은 데이터 분석 도구, 위키피디아 문서 기반 역사 교육 도구, 카드 게임과 같은 다양한 웹 환경을 다룸",
+            ]}
             techStack={["Python", "TensorFlow", "Keras", "scikit-learn"]}
           />
         </RowRightCell>
