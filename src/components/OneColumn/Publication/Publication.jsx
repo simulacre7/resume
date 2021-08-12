@@ -47,7 +47,7 @@ export default function Publication() {
         }
         journal={`ACM International Conference on Information and Knowledge Management (CIKM), 2020`}
         details={[
-          "도로 및 통행 데이터 전처리",
+          "한국도로공사의 도로 바닥에 설치된 차량 감지 센서 데이터를 전처리",
           "Attention이 효과적으로 동작한 경우들을 패턴 별로 묶어 카테고리화",
         ]}
       />
@@ -61,9 +61,7 @@ export default function Publication() {
         }
         journal={`ACM International Conference on Mobile Systems, Applications, and Services (MobiSys), 2019`}
         details={[
-          "성실하게 노동했음을 호소하는 문구가 필요합니다.",
-          "무언가를 배웠음도 호소합니다.",
-          "어쩌구 저쩌구 머시기가 두시기",
+          "Inverse Reinforcement Learning을 통해, 스마트폰 사용 로그로 중독 질환 여부를 감지하는 시스템을 제안",
         ]}
       />
       <Item
@@ -75,11 +73,7 @@ export default function Publication() {
           </>
         }
         journal={`소음진동 제27권 제6호 2017.11`}
-        details={[
-          "성실하게 노동했음을 호소하는 문구가 필요합니다.",
-          "무언가를 배웠음도 호소합니다.",
-          "어쩌구 저쩌구 머시기가 두시기",
-        ]}
+        details={["딥 러닝 모델을 해석하기 위한 시각화 기법들을 정리 및 조사"]}
       />
     </section>
   );
