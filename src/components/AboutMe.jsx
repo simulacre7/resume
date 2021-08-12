@@ -31,7 +31,7 @@ export default function AboutMe() {
         ref={animatedItem.greeting.ref}
         style={{ ...greetingStyle, ...animatedItem.greeting.style }}
       >
-        {`반갑습니다. 저는 프론트엔드 개발자 김기환입니다. 인간과 AI사이 상호작용을 개선하는 일을 해오고 있습니다. 
+        {`반갑습니다. 저는 프론트엔드 개발자 김기환입니다. 인간과 AI 사이 상호작용을 개선하는 일을 해오고 있습니다. 
     현재는 블랙박스 모델의 해석을 돕는 데이터 시각화 기법을 연구 중 입니다. 
     과거에는 사용자 로그 데이터의 가치를 AI 측면에서 평가하고, 
     이를 통해 더 나은 인터페이스가 무엇인지를 비교하는 연구를 수행했습니다.`}
