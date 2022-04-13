@@ -44,6 +44,9 @@ export default function AboutMe() {
         <a id="email" href="mailto:juljin1875@gmail.com">
           <Typography style={contactStyle}>juljin1875@gmail.com</Typography>
         </a>
+        <a id="blog" href="https://kihwan.vercel.app/">
+          <Typography style={contactStyle}>Blog</Typography>
+        </a>
         <a id="github" href="https://github.com/simulacre7/">
           <Typography style={contactStyle}>GitHub</Typography>
         </a>
