@@ -15,6 +15,7 @@ function App() {
       <Education />
       <Publication />
       <Skills />
+      <div style={{ height: "10rem" }} />
     </div>
   );
 }
