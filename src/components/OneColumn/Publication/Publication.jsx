@@ -25,6 +25,23 @@ export default function Publication() {
         <ColorHead>Pub</ColorHead>lications
       </Typography>
       <Item
+        title="An Empirical Study on the Relationship Between the Number of Coordinated Views and Visual Analysis"
+        url="https://arxiv.org/abs/2108.00151"
+        author={
+          <>
+            Juyoung Oh, Chunggi Lee, Hwiyeon Kim,<b> Kihwan Kim</b>, Osang Kwon,
+            Eric D. Ragan, Bum Chul Kwon, Sungahn Ko
+          </>
+        }
+        journal={`A Computing Research Repository (CoRR), 2204.09524, 2022`}
+        details={[
+          "시각화 차트의 갯수가 데이터의 시각적 분석에 어떤 영향을 미치는지 실험",
+          "44명 피험자에게 시각적 분석 도구를 주고, 데이터 분석 과제를 풀도록 함",
+          "Think-aloud 프로토콜과 녹화된 화면, 그리고 로그 데이터를 통해 사용자의 분석 패턴을 카테고리화",
+          "차트의 갯수와 과제 점수 간 양의 상관관계를 관찰",
+        ]}
+      />
+      <Item
         title="An Empirical Analysis on Transparent Algorithmic Exploration in Recommender Systems"
         url="https://arxiv.org/abs/2108.00151"
         author={<b>Kihwan Kim</b>}
@@ -34,6 +51,8 @@ export default function Publication() {
           "실험 환경으로 사용된 웹 기반 영화 추천 시스템 구현",
           "사용자 로그의 가치를 AI 측면에서 평가하는 metric 제안",
           "추천시스템의 Explore-Exploit 문제에서 투명성이 데이터의 품질에 미치는 영향을 측정",
+          "94명의 피험자를 Amazon MTurk에서 구인",
+          "피험자들에게 넷플릭스와 유사한 실험 환경을 이용하도록 하여, 실사용 로그 데이터와 설문 응답을 수집",
         ]}
       />
       <Item
