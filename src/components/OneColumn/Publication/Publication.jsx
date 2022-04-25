@@ -25,23 +25,6 @@ export default function Publication() {
         <ColorHead>Pub</ColorHead>lications
       </Typography>
       <Item
-        title="An Empirical Study on the Relationship Between the Number of Coordinated Views and Visual Analysis"
-        url="https://arxiv.org/abs/2108.00151"
-        author={
-          <>
-            Juyoung Oh, Chunggi Lee, Hwiyeon Kim,<b> Kihwan Kim</b>, Osang Kwon,
-            Eric D. Ragan, Bum Chul Kwon, Sungahn Ko
-          </>
-        }
-        journal={`A Computing Research Repository (CoRR), 2204.09524, 2022`}
-        details={[
-          "시각화 차트의 갯수가 데이터의 시각적 분석에 어떤 영향을 미치는지 실험",
-          "44명 피험자에게 시각적 분석 도구를 주고, 데이터 분석 과제를 풀도록 함",
-          "Think-aloud 프로토콜과 녹화된 화면, 그리고 로그 데이터를 통해 사용자의 분석 패턴을 카테고리화",
-          "차트의 갯수와 과제 점수 간 양의 상관관계를 관찰",
-        ]}
-      />
-      <Item
         title="An Empirical Analysis on Transparent Algorithmic Exploration in Recommender Systems"
         url="https://arxiv.org/abs/2108.00151"
         author={<b>Kihwan Kim</b>}
@@ -81,6 +64,23 @@ export default function Publication() {
         journal={`ACM International Conference on Mobile Systems, Applications, and Services (MobiSys), 2019`}
         details={[
           "Inverse Reinforcement Learning을 통해, 스마트폰 사용 로그로 중독 질환 여부를 감지하는 시스템을 제안",
+        ]}
+      />
+      <Item
+        title="An Empirical Study on the Relationship Between the Number of Coordinated Views and Visual Analysis"
+        url="https://arxiv.org/abs/2108.00151"
+        author={
+          <>
+            Juyoung Oh, Chunggi Lee, Hwiyeon Kim,<b> Kihwan Kim</b>, Osang Kwon,
+            Eric D. Ragan, Bum Chul Kwon, Sungahn Ko
+          </>
+        }
+        journal={`A Computing Research Repository (CoRR), 2204.09524, 2018`}
+        details={[
+          "시각화 차트의 갯수가 데이터의 시각적 분석에 어떤 영향을 미치는지 실험",
+          "44명 피험자에게 시각적 분석 도구를 주고, 데이터 분석 과제를 풀도록 함",
+          "Think-aloud 프로토콜과 녹화된 화면, 그리고 로그 데이터를 통해 사용자의 분석 패턴을 카테고리화",
+          "차트의 갯수와 과제 점수 간 양의 상관관계를 관찰",
         ]}
       />
       <Item
