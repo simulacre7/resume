@@ -18,21 +18,13 @@ const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {
     }
   };
 
-  const onScroll = useCallback(
-    ([entry]) => {
-      const { current } = element;
-      if (entry.isIntersecting) {
-        current.style.transitionProperty = "all";
-        current.style.transitionDuration = `${duration}s`;
-        current.style.transitionTimingFunction =
-          "cubic-bezier(0.22, 1, 0.36, 1)";
-        current.style.transitionDelay = `${delay}s`;
-        current.style.opacity = 1;
-        current.style.transform = "translate3d(0, 0, 0)";
-      }
-    },
-    [delay, duration]
-  );
+  const onScroll = useCallback(([entry]) => {
+    const { current } = element;
+    if (entry.isIntersecting) {
+      current.style.opacity = 1;
+      current.style.transform = "translate3d(0, 0, 0)";
+    }
+  }, []);
 
   useEffect(() => {
     let observer;
@@ -47,7 +39,14 @@ const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {
 
   return {
     ref: element,
-    style: { opacity: 0, transform: handleDirection(direction) },
+    style: {
+      opacity: 0,
+      transform: handleDirection(direction),
+      transitionProperty: "opacity, transform",
+      transitionDuration: `${duration}s`,
+      transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)",
+      transitionDelay: `${delay}s`,
+    },
   };
 };
 
