@@ -29,7 +29,7 @@ export default function WorkExperience() {
       </Typography>
       <Row>
         <RowLeftCell
-          companyName="리디 주식회사"
+          companyName="리디주식회사"
           position="Frontend Engineer"
           time="2022.05&ndash;현재"
         />
