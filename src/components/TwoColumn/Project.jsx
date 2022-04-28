@@ -52,12 +52,13 @@ export default function Project({
       >
         {description}
       </Typography>
-      <Detail details={did} />
-      {techStack.map((tech, index) => (
-        <Badge key={`tech-${index}`} style={detailStyle}>
-          {tech}
-        </Badge>
-      ))}
+      {did && <Detail details={did} />}
+      {techStack &&
+        techStack.map((tech, index) => (
+          <Badge key={`tech-${index}`} style={detailStyle}>
+            {tech}
+          </Badge>
+        ))}
     </div>
   );
 }
