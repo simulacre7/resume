@@ -40,11 +40,12 @@ const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {
   return {
     ref: element,
     style: {
-      opacity: 0,
+      opacity: 0.1,
       transform: handleDirection(direction),
       transitionProperty: "opacity, transform",
       transitionDuration: `${duration}s`,
-      transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)",
+      transitionTimingFunction:
+        "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
       transitionDelay: `${delay}s`,
     },
   };
