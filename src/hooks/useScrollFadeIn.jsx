@@ -6,13 +6,13 @@ const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {
   const handleDirection = (name) => {
     switch (name) {
       case "up":
-        return "translate3d(0, 0.6rem, 0)";
+        return "translate(0, 0.6rem)";
       case "down":
-        return "translate3d(0, -3vh, 0)";
+        return "translate(0, -3vh)";
       case "left":
-        return "translate3d(50%, 0, 0)";
+        return "translate(50%, 0)";
       case "right":
-        return "translate3d(-50%, 0, 0)";
+        return "translate(-50%, 0)";
       default:
         return;
     }
@@ -22,7 +22,7 @@ const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {
     const { current } = element;
     if (entry.isIntersecting) {
       current.style.opacity = 1;
-      current.style.transform = "translate3d(0, 0, 0)";
+      current.style.transform = "translate(0, 0)";
     }
   }, []);
 
