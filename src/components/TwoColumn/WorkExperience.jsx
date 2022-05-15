@@ -5,7 +5,6 @@ import RowLeftCell from "./RowLeftCell";
 import RowRightCell from "./RowRightCell";
 import { Typography, useMediaQuery } from "@material-ui/core";
 import ColorHead from "../ColorHead";
-import useScrollFadeIn from "../../hooks/useScrollFadeIn";
 
 export default function WorkExperience() {
   const matches = useMediaQuery("(max-width:960px)");
@@ -16,15 +15,9 @@ export default function WorkExperience() {
     ? { padding: "0 2rem", marginTop: "2.5rem" }
     : { padding: "0 2rem", marginTop: "4rem" };
 
-  const animatedItem = { title: useScrollFadeIn("up") };
-
   return (
     <section style={sectionStyle}>
-      <Typography
-        ref={animatedItem.title.ref}
-        variant="h3"
-        style={{ ...titleStyle, ...animatedItem.title.style }}
-      >
+      <Typography variant="h3" style={{ ...titleStyle }}>
         <ColorHead>Exp</ColorHead>erience
       </Typography>
       <Row>

@@ -1,14 +1,10 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import "./Detail.scss";
-import useScrollFadeIn from "../hooks/useScrollFadeIn";
 
 function DetailItem({ children, key }) {
-  const animatedItem = {
-    item: useScrollFadeIn("up"),
-  };
   return (
-    <li key={key} {...animatedItem.item}>
+    <li key={key}>
       <Typography>{children}</Typography>
     </li>
   );

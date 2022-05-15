@@ -2,7 +2,6 @@ import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
 import Detail from "../Detail";
 import Badge from "../Badge";
-import useScrollFadeIn from "../../hooks/useScrollFadeIn";
 
 export default function Project({
   title,
@@ -25,33 +24,13 @@ export default function Project({
     ? { fontSize: "0.75rem" }
     : { fontSize: "0.9rem" };
 
-  const animatedItem = {
-    title: useScrollFadeIn("up"),
-    time: useScrollFadeIn("up"),
-    description: useScrollFadeIn("up"),
-  };
-
   return (
     <div style={isFirst ? firstStyle : otherStyle}>
-      <Typography
-        ref={animatedItem.title.ref}
-        variant="h4"
-        style={{ ...titleStyle, ...animatedItem.title.style }}
-      >
+      <Typography variant="h4" style={{ ...titleStyle }}>
         {title}
       </Typography>
-      <Typography
-        ref={animatedItem.time.ref}
-        style={{ ...animatedItem.time.style, marginBottom: "1rem" }}
-      >
-        {time}
-      </Typography>
-      <Typography
-        ref={animatedItem.description.ref}
-        style={{ ...animatedItem.description.style, marginBottom: "1rem" }}
-      >
-        {description}
-      </Typography>
+      <Typography style={{ marginBottom: "1rem" }}>{time}</Typography>
+      <Typography style={{ marginBottom: "1rem" }}>{description}</Typography>
       {did && <Detail details={did} />}
       {techStack &&
         techStack.map((tech, index) => (

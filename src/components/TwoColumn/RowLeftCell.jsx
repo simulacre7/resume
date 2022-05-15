@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
-import useScrollFadeIn from "../../hooks/useScrollFadeIn";
 
 export default function RowLeftCell({
   companyName,
@@ -22,37 +21,16 @@ export default function RowLeftCell({
         paddingBottom: "1rem",
       }
     : { flexBasis: "18rem", paddingRight: "1rem", flexShrink: "0" };
-  const animatedItem = {
-    company: useScrollFadeIn("up"),
-    position: useScrollFadeIn("up"),
-    position2: useScrollFadeIn("up"),
-    time: useScrollFadeIn("up"),
-    time2: useScrollFadeIn("up"),
-  };
 
   return (
     <div style={containerStyle}>
-      <Typography
-        ref={animatedItem.company.ref}
-        variant="h4"
-        style={{ ...animatedItem.company.style, ...titleStyle }}
-      >
+      <Typography variant="h4" style={{ ...titleStyle }}>
         {companyName}
       </Typography>
-      <Typography
-        ref={animatedItem.position.ref}
-        style={{ ...animatedItem.position.style, display: "block" }}
-      >
-        {position}
-      </Typography>
-      <Typography {...animatedItem.time}>{time}</Typography>
-      <Typography
-        ref={animatedItem.position2.ref}
-        style={{ ...animatedItem.position2.style, display: "block" }}
-      >
-        {position2}
-      </Typography>
-      <Typography {...animatedItem.time2}>{time2}</Typography>
+      <Typography style={{ display: "block" }}>{position}</Typography>
+      <Typography>{time}</Typography>
+      <Typography style={{ display: "block" }}>{position2}</Typography>
+      <Typography>{time2}</Typography>
     </div>
   );
 }

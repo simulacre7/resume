@@ -1,7 +1,6 @@
 import React from "react";
 import { Typography, useMediaQuery } from "@material-ui/core";
 import Detail from "../../Detail";
-import useScrollFadeIn from "../../../hooks/useScrollFadeIn";
 
 export default function Item({ title, details }) {
   const matches = useMediaQuery("(max-width:960px)");
@@ -9,17 +8,10 @@ export default function Item({ title, details }) {
     ? { margin: "0 0 0.5rem", fontSize: "1.25rem" }
     : { margin: "0 0 0.5rem", fontSize: "2rem" };
   const rowStyle = { paddingTop: "1rem" };
-  const animatedItem = {
-    title: useScrollFadeIn("up"),
-  };
 
   return (
     <div style={rowStyle}>
-      <Typography
-        ref={animatedItem.title.ref}
-        variant="h5"
-        style={{ ...titleStyle, ...animatedItem.title.style }}
-      >
+      <Typography variant="h5" style={{ ...titleStyle }}>
         {title}
       </Typography>
       <Detail details={details} />
