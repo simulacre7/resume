@@ -32,6 +32,7 @@ export default function WorkExperience() {
             title="온보딩 프로세스"
             time="2022.05&ndash;현재"
             description={<>경력직 신규 입사자로서 조직에 적응 중</>}
+            techStack={["Next.js", "Typescript", "React", "PHP"]}
           />
         </RowRightCell>
       </Row>
