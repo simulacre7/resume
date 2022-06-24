@@ -29,10 +29,19 @@ export default function WorkExperience() {
         <RowRightCell>
           <Project
             isFirst
-            title="온보딩 프로세스"
+            title="리디 웹사이트"
             time="2022.05&ndash;현재"
-            description={<>경력직 신규 입사자로서 조직에 적응 중</>}
-            techStack={["Next.js", "Typescript", "React", "PHP"]}
+            description={
+              <>
+                웹툰, 웹소설, 만화, 전자책 등을 서비스하는 콘텐츠 플랫폼의
+                프론트엔드를 개발합니다.
+              </>
+            }
+            did={[
+              "비즈니스의 다양한 요구사항에 대응하는 신규 기능 구현",
+              "기존 시스템의 유지 보수",
+            ]}
+            techStack={["Next.js", "Typescript", "React", "Emotion", "PHP"]}
           />
         </RowRightCell>
       </Row>
@@ -50,7 +59,8 @@ export default function WorkExperience() {
             description={
               <>
                 jQuery 기반 사내 프론트엔드 라이브러리 &mdash; TOP
-                <i>(Tmax One Platform)</i>로 구현된 제품들을 리액트로 전환함
+                <i>(Tmax One Platform)</i>로 구현된 제품들을 리액트로
+                전환하였습니다.
               </>
             }
             did={[
