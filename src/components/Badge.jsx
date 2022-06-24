@@ -5,9 +5,9 @@ export default function Badge({ children, style }) {
   return (
     <div
       style={{
-        backgroundColor: "#e3f5ef",
+        backgroundColor: "rgba(227, 245, 239, 0.5)",
         color: "teal",
-        borderRadius: "0.2rem",
+        borderRadius: "1.5rem",
         margin: "0.1rem",
         paddingTop: "0.2rem",
         paddingBottom: "0.3rem",
