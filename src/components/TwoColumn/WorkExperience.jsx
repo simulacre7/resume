@@ -39,9 +39,16 @@ export default function WorkExperience() {
             }
             did={[
               "비즈니스의 다양한 요구사항에 대응하는 신규 기능 구현",
-              "기존 시스템의 유지 보수",
+              "기존 시스템의 유지 보수: 리팩토링, 테스트 코드 작성",
             ]}
-            techStack={["Next.js", "Typescript", "React", "Emotion", "PHP"]}
+            techStack={[
+              "Next.js",
+              "Typescript",
+              "React",
+              "Emotion",
+              "Jest",
+              "PHP",
+            ]}
           />
         </RowRightCell>
       </Row>
