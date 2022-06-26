@@ -4,7 +4,6 @@ import ColorHead from "../../ColorHead";
 import Item from "./Item";
 export default function Skills() {
   const matches = useMediaQuery("(max-width:960px)");
-  const skillStyle = matches ? { fontSize: "2.4rem" } : {};
   const sectionStyle = matches
     ? { padding: "0 2rem", marginTop: "2.5rem" }
     : { padding: "0 2rem", marginTop: "4rem" };
