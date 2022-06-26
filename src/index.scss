@@ -7,3 +7,7 @@ a {
 *::selection {
   background-color: #9dddc6;
 }
+
+body {
+  word-break: keep-all;
+}
