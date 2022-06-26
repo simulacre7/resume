@@ -54,9 +54,11 @@ export default function WorkExperience() {
       </Row>
       <Row>
         <RowLeftCell
-          companyName="티맥스데이터"
+          companyName="티맥스엔터프라이즈"
           position="Researcher"
           time="2020.02&ndash;2022.04"
+          position2="現 티맥스비아이"
+          time2="前 티맥스데이터"
         />
         <RowRightCell>
           <Project
@@ -79,7 +81,7 @@ export default function WorkExperience() {
           <Project
             title="AutoML 플랫폼"
             time="2020.02&ndash;2022.04"
-            description="소모적이고 반복적인 기계학습 모델 개발 작업을 자동화해주는 플랫폼을 개발 했습니다."
+            description="소모적이고 반복적인 기계학습 모델 개발 작업을 자동화하는 플랫폼을 개발 했습니다."
             did={[
               "비전문가를 위한 Codeless 환경의 개발 스튜디오 구현",
               <>
