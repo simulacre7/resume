@@ -56,8 +56,8 @@ export default function Education() {
             time="2019.02&ndash;현재"
             description={
               <>
-                웹 환경에서 사용자들의 행동 패턴들을 파악하고, 이를 모델링하는
-                연구를 했습니다.
+                웹 환경에서 사용자의 행동 패턴을 파악하고 이를 모델링하는 연구를
+                했습니다.
               </>
             }
             did={[

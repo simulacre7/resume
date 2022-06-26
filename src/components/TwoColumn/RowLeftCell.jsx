@@ -20,7 +20,7 @@ export default function RowLeftCell({
         msFlexPreferredSize: "100%",
         paddingBottom: "1rem",
       }
-    : { flexBasis: "18rem", paddingRight: "1rem", flexShrink: "0" };
+    : { flexBasis: "18rem", paddingRight: "1.3rem", flexShrink: "0" };
 
   return (
     <div style={containerStyle}>
