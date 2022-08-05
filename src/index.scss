@@ -11,3 +11,10 @@ a {
 body {
   word-break: keep-all;
 }
+
+.MuiTypography-root {
+  transition: all .25s linear; 
+  -o-transition: all .25s linear; 
+  -moz-transition: all .25s linear; 
+  -webkit-transition: all .25s linear; 
+}
