@@ -8,8 +8,8 @@ export default function Row({ children }) {
         display: "flex",
         padding: "1rem 0",
         //borderBottom: "1px solid #eee",
-        webkitBoxOrient: "vertical",
-        webkitBoxDirection: "normal",
+        WebkitBoxOrient: "vertical",
+        WebkitBoxDirection: "normal",
         msFlexDirection: "column",
         flexDirection: "column",
       }

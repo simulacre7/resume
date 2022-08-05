@@ -2,9 +2,9 @@ import React from "react";
 import { Typography } from "@material-ui/core";
 import "./Detail.scss";
 
-function DetailItem({ children, key }) {
+function DetailItem({ children }) {
   return (
-    <li key={key}>
+    <li>
       <Typography>{children}</Typography>
     </li>
   );
