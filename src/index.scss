@@ -13,8 +13,8 @@ body {
 }
 
 .MuiTypography-root {
-  transition: all .25s linear; 
-  -o-transition: all .25s linear; 
-  -moz-transition: all .25s linear; 
-  -webkit-transition: all .25s linear; 
+  transition: all .25s ease-in-out; 
+  -o-transition: all .25s ease-in-out; 
+  -moz-transition: all .25s ease-in-out; 
+  -webkit-transition: all .25s ease-in-out; 
 }
