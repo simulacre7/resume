@@ -17,10 +17,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
@@ -41,5 +41,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-async-generator-functions": "^7.20.7",
+    "@babel/plugin-proposal-dynamic-import": "^7.18.6",
+    "@babel/preset-react": "^7.23.3",
+    "yarn-audit-fix": "^10.0.7"
   }
 }
