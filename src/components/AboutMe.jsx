@@ -28,8 +28,8 @@ export default function AboutMe() {
         <a id="email" href="mailto:juljin1875@gmail.com">
           <Typography style={contactStyle}>juljin1875@gmail.com</Typography>
         </a>
-        <a id="blog" href="https://kihwan.vercel.app/">
-          <Typography style={contactStyle}>Blog</Typography>
+        <a id="linkedIn" href="https://www.linkedin.com/in/1875/">
+          <Typography style={contactStyle}>LinkedIn</Typography>
         </a>
         <a id="github" href="https://github.com/simulacre7/">
           <Typography style={contactStyle}>GitHub</Typography>
