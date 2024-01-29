@@ -53,7 +53,7 @@ export default function Education() {
           />
           <Project
             title="웹 사용자 행동 모델링"
-            time="2019.02&ndash;현재"
+            time="2019.02&ndash;2020.02"
             description={
               <>
                 웹 환경에서 사용자의 행동 패턴을 파악하고 이를 모델링하는 연구를
